@@ -1,10 +1,10 @@
 
   Marco Antonio Camalich Pérez<br />
   A01351725<br />
-  25 de Agosto de 2021
-  Programación de estructuras de datos y algoritmos fundamentales
-  Benjamin Valdes Aguirre
-  **Act 1.1: Funciones Iterativas, Recursivas y su analisis de Complejidad**
+  25 de Agosto de 2021<br />
+  Programación de estructuras de datos y algoritmos fundamentales<br />
+  Benjamin Valdes Aguirre<br />
+  **Act 1.1: Funciones Iterativas, Recursivas y su analisis de Complejidad**<br />
    
 **Análisis de complejidad temporal**
 
