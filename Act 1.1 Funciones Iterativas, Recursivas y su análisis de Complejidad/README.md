@@ -8,7 +8,7 @@
    
 ### Análisis de complejidad temporal
 #### Suma Iterativa
-El algoritmo recorre n cantidad de pasos ya que usa un ciclo que va decrementando linealmente desde el valor de n hasta 1, por lo tanto, su complejidad es O(n) para el peor de los casos.
+El algoritmo recorre n cantidad de pasos ya que usa un ciclo cuyas llamadas van decrementando linealmente desde el valor de n hasta 1, por lo tanto, su complejidad es O(n) para el peor de los casos.
 
 #### Suma Recursiva
 El algoritmo se manda a llamar así mismo "n" cantidad de veces, fenómeno denominado como recursión. Dado que a la cantidad de llamadas depende directamente del valor de n y el cambio es un decremento lineal sin ningún tipo de dependencia a otro ciclo o recursión, su complejidad sigue siendo O(n) para el peor de los casos. (Existe un caso lineal cuando el valor es 0 o 1, pero no es el peor de los casos por lo que no es considerado para el análisis)
