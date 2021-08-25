@@ -14,4 +14,4 @@ El algoritmo recorre n cantidad de pasos ya que usa un ciclo que va decrementand
 El algoritmo se manda a llamar así mismo "n" cantidad de veces, fenómeno denominado como recursión. Dado que a la cantidad de llamadas depende directamente del valor de n y el cambio es lineal sin ningún tipo de dependencia a otro ciclo o recursión, su complejidad sigue siendo O(n) para el peor de los casos.
 
 #### Suma Directa
-El algoritmo siempre mantendrá la misma cantidad de pasos independientemente del valor que se le otorgue ya que es una suma directa la que se efectúa sin necesidad de utilizar ciclos o recursión, por lo tanto, su complejidad es O(1) para el peor de los casos.
+El algoritmo siempre mantendrá la misma cantidad de pasos independientemente del valor que se le otorgue ya que es una operación directa la que se efectúa sin necesidad de utilizar ciclos o recursión, por lo tanto, su complejidad es O(1) para el peor de los casos.
