@@ -4,7 +4,7 @@
   25 de Agosto de 2021<br />
   Programación de estructuras de datos y algoritmos fundamentales<br />
   Benjamin Valdes Aguirre<br />
-  **Act 1.1: Funciones Iterativas, Recursivas y su analisis de Complejidad**<br />
+ # Act 1.1: Funciones Iterativas, Recursivas y su analisis de Complejidad<br />
    
 **Análisis de complejidad temporal**
 
