@@ -6,11 +6,9 @@
   Benjamin Valdes Aguirre<br />
  # Act 1.1: Funciones Iterativas, Recursivas y su analisis de Complejidad<br />
    
-**Análisis de complejidad temporal**
-
-el algoritmo recorre n pasos ya que usa un ciclo que va i = 1 hatsa n, por los que su complejidad es O(n*n) para el peor de los casos.
-
-#suma Recursiva
+### Análisis de complejidad temporal**
+#### Suma Recursiva
+El algoritmo recorre n pasos ya que usa un ciclo que va i = 1 hasta n, por los que su complejidad es O(n*n) para el peor de los casos.
 
 **Análisis de complejidad temporal**
 
