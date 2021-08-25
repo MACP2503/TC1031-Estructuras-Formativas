@@ -42,8 +42,8 @@ int main(int argc, char* argv[]) {
 	cout << " " << ((55 == fun.sumaDirecta(10)) ? "Success\n" : "Fail\n");
 
 	cout<<"\n------------------------------------------------------------------------";
-	cout<<"\n"<<"Marco Antonio Camalich Perez"<<"\nA01351725"<<"\n25 de Agosto de 2021"<<"\nProgramacion de estructuras de datos y algoritmos fundamentales"<<"\nFunciones Iterativas, Recursivas y su analisis de Complejidad";
-	cout<<"\nBenjamin Valdes Aguirre";
+	cout<<"\n"<<"Marco Antonio Camalich Perez"<<"\nA01351725"<<"\n25 de Agosto de 2021"<<"\nProgramacion de estructuras de datos y algoritmos fundamentales";
+	cout<<"\nAct 1.1: Funciones Iterativas, Recursivas y su analisis de Complejidad"<<"\nBenjamin Valdes Aguirre";
 	cout<<"\n------------------------------------------------------------------------";
 	}
 
