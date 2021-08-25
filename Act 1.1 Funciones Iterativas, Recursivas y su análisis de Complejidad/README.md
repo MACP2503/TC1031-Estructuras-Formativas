@@ -1,6 +1,6 @@
 
-	Marco Antonio Camalich Pérez
-  A01351725
+  Marco Antonio Camalich Pérez<br />
+  A01351725<br />
   25 de Agosto de 2021
   Programación de estructuras de datos y algoritmos fundamentales
   Benjamin Valdes Aguirre
