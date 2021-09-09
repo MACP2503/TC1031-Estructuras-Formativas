@@ -48,7 +48,7 @@ int main(int argc, char* argv[]) {
 	cout << "\n" <<"1.- esperada " << resp1 << "\n programa " << arrayToString(prueba) << "\n";
 	cout <<	(!resp1.compare(arrayToString(prueba)) ? "success\n" : "fail\n");
 
-	prueba = original2;
+	/*prueba = original2;
 	sorts.ordenaSeleccion(prueba);
 
 	cout << "\n" <<"2.- esperada " << resp2 << "\n programa " << arrayToString(prueba) << "\n";
@@ -89,5 +89,5 @@ int main(int argc, char* argv[]) {
 	cout <<	(4 == sorts.busqBinaria(prueba, 333) ? "success\n" : "fail\n");
 
 	cout << "\n" <<"10.- esperada "  << -1  << " programa " << sorts.busqBinaria(prueba, 197) << "\n";
-	cout <<	(-1 == sorts.busqBinaria(prueba, 197) ? "success\n" : "fail\n");
+	cout <<	(-1 == sorts.busqBinaria(prueba, 197) ? "success\n" : "fail\n");*/
 }
