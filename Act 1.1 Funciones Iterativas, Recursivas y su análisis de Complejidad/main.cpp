@@ -11,40 +11,35 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-	funciones fun;
-	int i = 1;
+	Funciones fun;
+	int i = 0;
 
-	cout << "\n" << i++ <<".- Respuesta Esperada: " << 28 << " Respuesta del Programa:  " << fun.sumaIterativa(7) << "\n";
-	cout << " " << ((28 == fun.sumaIterativa(7)) ? "Success\n" : "Fail\n");
+	cout << "\n" << i++ <<".- respuesta esperada " << 36 << " programa " << fun.sumaIterativa(8) << "\n";
+	cout << " " << ((36 == fun.sumaIterativa(8)) ? "success\n" : "fail\n");
 
-	cout << "\n" << i++ <<".- Respuesta Esperada: " << 28 << " Respuesta del Programa:  " << fun.sumaRecursiva(7) << "\n";
-	cout << " " << ((28 == fun.sumaRecursiva(7)) ? "Success\n" : "Fail\n");
+	cout << "\n" << i++ <<".- respuesta esperada " << 36 << " programa " << fun.sumaRecursiva(8) << "\n";
+	cout << " " << ((36 == fun.sumaRecursiva(8)) ? "success\n" : "fail\n");
 
-	cout << "\n" << i++ <<".- Respuesta Esperada: " << 28 << " Respuesta del Programa:  " << fun.sumaDirecta(7) << "\n";
-	cout << " " << ((28 == fun.sumaDirecta(7)) ? "Success\n" : "Fail\n");
+	cout << "\n" << i++ <<".- respuesta esperada " << 36 << " programa " << fun.sumaDirecta(8) << "\n";
+	cout << " " << ((36 == fun.sumaDirecta(8)) ? "success\n" : "fail\n");
 
-	cout << "\n" << i++ <<".- Respuesta Esperada: " << 3 << " Respuesta del Programa:  " << fun.sumaIterativa(2) << "\n";
-	cout << " " << ((3 == fun.sumaIterativa(2)) ? "Success\n" : "Fail\n");
+	cout << "\n" << i++ <<".- respuesta esperada " << 0 << " programa " << fun.sumaIterativa(0) << "\n";
+	cout << " " << ((0 == fun.sumaIterativa(0)) ? "success\n" : "fail\n");
 
-	cout << "\n" << i++ <<".- Respuesta Esperada: " << 3 << " Respuesta del Programa:  " << fun.sumaRecursiva(2) << "\n";
-	cout << " " << ((3 == fun.sumaRecursiva(2)) ? "Success\n" : "Fail\n");
+	cout << "\n" << i++ <<".- respuesta esperada " << 0 << " programa " << fun.sumaRecursiva(0) << "\n";
+	cout << " " << ((0 == fun.sumaRecursiva(0)) ? "success\n" : "fail\n");
 
-	cout << "\n" << i++ <<".- Respuesta Esperada: " << 3 << " Respuesta del Programa:  " << fun.sumaDirecta(2) << "\n";
-	cout << " " << ((3 == fun.sumaDirecta(2)) ? "Success\n" : "Fail\n");
+	cout << "\n" << i++ <<".- respuesta esperada " << 0 << " programa " << fun.sumaDirecta(0) << "\n";
+	cout << " " << ((0 == fun.sumaDirecta(0)) ? "success\n" : "fail\n");
 
-	cout << "\n" << i++ <<".- Respuesta Esperada: " << 55 << " Respuesta del Programa:  " << fun.sumaIterativa(10) << "\n";
-	cout << " " << ((55 == fun.sumaIterativa(10)) ? "Success\n" : "Fail\n");
+	cout << "\n" << i++ <<".- respuesta esperada " << 1 << " programa " << fun.sumaIterativa(1) << "\n";
+	cout << " " << ((1 == fun.sumaIterativa(1)) ? "success\n" : "fail\n");
 
-	cout << "\n" << i++ <<".- Respuesta Esperada: " << 55 << " Respuesta del Programa:  " << fun.sumaRecursiva(10) << "\n";
-	cout << " " << ((55 == fun.sumaRecursiva(10)) ? "Success\n" : "Fail\n");
+	cout << "\n" << i++ <<".- respuesta esperada " << 1 << " programa " << fun.sumaRecursiva(1) << "\n";
+	cout << " " << ((1 == fun.sumaRecursiva(1)) ? "success\n" : "fail\n");
 
-	cout << "\n" << i++ <<".- Respuesta Esperada: " << 55 << " Respuesta del Programa:  " << fun.sumaDirecta(10) << "\n";
-	cout << " " << ((55 == fun.sumaDirecta(10)) ? "Success\n" : "Fail\n");
-
-	cout<<"\n------------------------------------------------------------------------";
-	cout<<"\n"<<"Marco Antonio Camalich Perez"<<"\nA01351725"<<"\n25 de Agosto de 2021"<<"\nProgramacion de estructuras de datos y algoritmos fundamentales";
-	cout<<"\nAct 1.1: Funciones Iterativas, Recursivas y su analisis de Complejidad"<<"\nBenjamin Valdes Aguirre";
-	cout<<"\n------------------------------------------------------------------------";
-	}
+	cout << "\n" << i++ <<".- respuesta esperada " << 1 << " programa " << fun.sumaDirecta(1) << "\n";
+	cout << " " << ((1 == fun.sumaDirecta(1)) ? "success\n" : "fail\n");
+}
 
 
