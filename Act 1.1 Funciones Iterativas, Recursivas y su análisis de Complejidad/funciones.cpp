@@ -1,16 +1,16 @@
 #include "funciones.h"
 
-funciones::funciones()
+Funciones::Funciones()
 {
     //ctor
 }
 
-funciones::~funciones()
+Funciones::~Funciones()
 {
     //dtor
 }
 
-int funciones::sumaIterativa(int n){
+int Funciones::sumaIterativa(int n){
 int i = 0;
 
 while(n>0){
@@ -20,9 +20,12 @@ while(n>0){
 return i;
 }
 
-int funciones::sumaRecursiva(int n){
-if(n==0||n==1){
+int Funciones::sumaRecursiva(int n){
+if(n==1){
     n=1;
+}
+else if(n==0){
+    n=0;
 }
 else{
     n=n+sumaRecursiva(n-1);
@@ -30,7 +33,7 @@ else{
 return n;
 }
 
-int funciones::sumaDirecta(int n){
+int Funciones::sumaDirecta(int n){
 int sd=0;
 sd=(n*(n+1))/2;
 return sd;
