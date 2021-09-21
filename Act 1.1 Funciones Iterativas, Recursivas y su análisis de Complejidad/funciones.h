@@ -2,11 +2,11 @@
 #define FUNCIONES_H
 
 
-class funciones
+class Funciones
 {
     public:
-        funciones();
-        ~funciones();
+        Funciones();
+        ~Funciones();
         int sumaIterativa(int);
         int sumaRecursiva(int);
         int sumaDirecta(int);
