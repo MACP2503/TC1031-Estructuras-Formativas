@@ -15,3 +15,7 @@ El algoritmo se manda a llamar así mismo "n" cantidad de veces, fenómeno denom
 
 #### Suma Directa
 El algoritmo siempre mantendrá la misma cantidad de pasos independientemente del valor que se le otorgue ya que es una operación directa la que se efectúa sin necesidad de utilizar ciclos o recursión, por lo tanto, su complejidad es O(1) para el peor de los casos.
+
+### Actualización de programa 1.1
+-Cambio de nombre de objeto y constructor/Destructor.
+-Modificación de condición en la suma recursiva que evitaba que el 0 ofreciera un correcto resultado.
