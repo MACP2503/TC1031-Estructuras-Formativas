@@ -70,9 +70,6 @@ int i=0;
     actual=inicio;
     while ( (actual!=NULL) && (actual->dato<=buscar) )
     {
-        if(actual->dato==buscar){
-            encontrado=true;
-        }
         actual=actual->siguiente;
         i++;
     }
