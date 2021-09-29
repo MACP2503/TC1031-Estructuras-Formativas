@@ -3,7 +3,7 @@
   30 de septiembre de 2021<br />
   Programación de estructuras de datos y algoritmos fundamentales<br />
   Benjamin Valdes Aguirre<br />
- # Act 2.2 - Implementación de una ADT de estructura de datos lineales<br />
+ # Act 2.2 - Implementación de una ADT de estructura de datos lineales (doble mente encadenada)<br />
    
 ### Análisis de complejidad temporal
 ### Insertion
