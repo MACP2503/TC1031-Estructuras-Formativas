@@ -17,3 +17,6 @@ La presencia de dos ifs dentro de un while no cambia la cantidad de pasos a segu
 
 ### DeleteAt
 Este sería O(1) si se desea eliminar el primer valor o el último, pero debido a su naturaleza de función dependiente de los datos ingresados por el usuario, su while actúa a partir del valor de n para poder completar el recorrido posterior. Esto lo convierte en un 0(n) para el peor de los casos.
+
+### Actualización 1.1
+-Cambio en el Search que permite buscar listas desordenadas.
