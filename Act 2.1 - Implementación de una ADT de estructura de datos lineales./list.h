@@ -63,18 +63,19 @@ toString();
 }
 
 template <class T>
-int List<T>::search(int buscar){
-bool encontrado=false;
-int i=0;
-    Nodo *actual=new Nodo();
-    actual=inicio;
-    while ( (actual!=NULL) && (actual->dato<=buscar) )
-    {
-        actual=actual->siguiente;
-        i++;
+int DList<T>::search(int buscar){
+    Nodo *aux=new Nodo();
+    aux = inicio;
+    int pos = 0;
+
+    while(aux!= 0){
+      if(aux->dato == buscar){
+        return pos;
+      }
+      aux = aux->siguiente;
+      pos++;
     }
-    int ii = i-1;
-    return ii;
+    return -1;
 }
 
 template <class T>
