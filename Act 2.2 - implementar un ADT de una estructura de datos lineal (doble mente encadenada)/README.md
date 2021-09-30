@@ -7,10 +7,10 @@
    
 ### Análisis de complejidad temporal
 ### Insertion
-El algoritmo recorre n cantidad de pasos ya que el fin de la lista delimita al único while existente en el código, esto quiere decir que un diferente valor de datos requerirá una mayor cantidad de llamadas al ciclo. Esto lo convierte en un 0(n) para el peor de los casos.
+En este caso, el algoritmo recorre siempre la misma cantidad de pasos ya que no existen ciclos de repetición o alguna condición que pueda modificar la cantidad de veces que cierto fragmento se repita. Esto lo convierte en un 0(1) para el peor de los casos.
 
 ### Search
-A pesar de que el algoritmo posee un while de dos condiciones, este no posee nada dentro que modifique la cantidad de pasos a usar. La existencia de una sola condición acompañada de pasos estáticos lo convierte en un 0(n) para el peor de los casos.
+A pesar de que el algoritmo posee un if dentro de un while, este no posee nada dentro que modifique la cantidad de pasos a usar. La existencia de una sola condición acompañada de pasos estáticos lo convierte en un 0(n) para el peor de los casos.
 
 ### Update
 La presencia de dos ifs dentro de un while no cambia la cantidad de pasos a seguir, esto es igualmente delimitado por la cantidad de espacios que el dato ingresado requiera movilizarse. Esto lo convierte en un 0(n) para el peor de los casos.
