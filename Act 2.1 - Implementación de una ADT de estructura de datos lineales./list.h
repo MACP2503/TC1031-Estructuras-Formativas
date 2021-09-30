@@ -63,7 +63,7 @@ toString();
 }
 
 template <class T>
-int DList<T>::search(int buscar){
+int List<T>::search(int buscar){
     Nodo *aux=new Nodo();
     aux = inicio;
     int pos = 0;
