@@ -10,10 +10,10 @@
 En este caso, el algoritmo recorre siempre la misma cantidad de pasos ya que no existen ciclos de repetición o alguna condición que pueda modificar la cantidad de veces que cierto fragmento se repita. Esto lo convierte en un 0(1) para el peor de los casos.
 
 ### Height
-A pesar de que el algoritmo posee un if dentro de un while, este no posee nada dentro que modifique la cantidad de pasos a usar. La existencia de una sola condición acompañada de pasos estáticos lo convierte en un 0(n) para el peor de los casos.
+La existencia de recursión hace a la función de la altura dependiente de la cantidad de movimientos que se deben de hacer a partir de la raíz. Una dependencia de una sola variable equivale a un ciclo, por lo tanto, equivale a un 0(n) para el peor de los casos.
 
 ### Ancestors
-La presencia de dos ifs dentro de un while no cambia la cantidad de pasos a seguir, esto es igualmente delimitado por la cantidad de espacios que el dato ingresado requiera movilizarse. Esto lo convierte en un 0(n) para el peor de los casos.
+La presencia de tres ifs simples dentro de la función find no cambia la complejidad, sin embargo el while que existe dentro de otro while que obligatoriamente deben ser utilizados hace que equivalga a un 0(n*n) para el peor de los casos.
 
 ### WhatlevelamI
-Este sería O(1) si se desea eliminar el primer valor o el último, pero debido a su naturaleza de función dependiente de los datos ingresados por el usuario, su while actúa a partir del valor de n para poder completar el recorrido posterior. Esto lo convierte en un 0(n) para el peor de los casos.
+Este caso es especial ya que existe recursión dentro de un for, este fenómeno ejemplifica el uso compartido de dos ciclos distintos que dependen uno del otro por lo que su complejidad equivale a un 0(n*n) para el peor de los casos.
