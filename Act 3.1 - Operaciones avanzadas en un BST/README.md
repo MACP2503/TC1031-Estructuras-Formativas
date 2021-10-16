@@ -7,7 +7,7 @@
    
 ### Análisis de complejidad temporal
 ### Visit
-En este caso, el algoritmo recorre siempre la misma cantidad de pasos ya que no existen ciclos de repetición o alguna condición que pueda modificar la cantidad de veces que cierto fragmento se repita. Esto lo convierte en un 0(1) para el peor de los casos.
+En este caso, el algoritmo recorre siempre la misma cantidad de pasos ya que no existen ciclos de repetición o alguna condición que pueda modificar la cantidad de veces que cierto fragmento se repita. Sin embargo, este debe recorrer todos los elementos del árbol, dependiendo de la cantidad que existen. Esto lo convierte en un 0(n) para el peor de los casos.
 
 ### Height
 La existencia de recursión hace a la función de la altura dependiente de la cantidad de movimientos que se deben de hacer a partir de la raíz. Una dependencia de una sola variable equivale a un ciclo, por lo tanto, equivale a un 0(n) para el peor de los casos.
