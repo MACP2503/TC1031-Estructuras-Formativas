@@ -4,6 +4,9 @@ Marco Antonio Camalich Pérez
 
 A01351725
 
+Programación de estructuras de datos y algoritmos fundamentales<br />
+  Benjamin Valdes Aguirre<br />
+
 # Correcciones en actividades
  ### Act 1.1 Funciones Iterativas, Recursivas y su análisis de Complejidad/
 * Se agregó analisis de complejidad para función recursiva en suma renglon 37 de funciones.h
