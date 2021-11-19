@@ -1,11 +1,9 @@
 # TC1031_Estructuras_Formativas
 
-Marco Antonio Camalich Pérez
-
-A01351725
-
+Marco Antonio Camalich Pérez<br />
+A01351725<br />
 Programación de estructuras de datos y algoritmos fundamentales<br />
-  Benjamin Valdes Aguirre<br />
+Benjamin Valdes Aguirre<br />
 
 # Correcciones en actividades
  ### Act 1.1 Funciones Iterativas, Recursivas y su análisis de Complejidad/
