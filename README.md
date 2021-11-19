@@ -1,6 +1,7 @@
 # TC1031_Estructuras_Formativas
 
-Repositorio de ejemplo
+Marco Antonio Camalich Pérez
+A01351725
 
 # Correcciones en actividades
  ### Act 1.1 Funciones Iterativas, Recursivas y su análisis de Complejidad/
