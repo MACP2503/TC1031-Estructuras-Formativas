@@ -51,7 +51,7 @@ public:
     string DFS(int, int);
     void depthHelper(int, int, stack<int>&, list<int>&, vector<vector<int>>&, std::stringstream &aux);
     string BFS(int, int);
-		void breadthHelper(int, int, queue<int>&, list<int>&, vector<vector<int>>&, std::stringstream &aux);
+	void breadthHelper(int, int, queue<int>&, list<int>&, vector<vector<int>>&, std::stringstream &aux);
     void print_path(vector<vector<int>>&,int ,int, std::stringstream&);
     void print_visited(list<int>, std::stringstream&);
 };
@@ -235,10 +235,12 @@ void Graph::print_path(vector<vector <int>> &path, int start, int goal, std::str
   }
 	reverse.push(start);
 	while (!reverse.empty()) {
-		aux << reverse.top() << " ";
+		aux << reverse.top();
 		reverse.pop();
+    if(!reverse.empty()){
+      aux<<" ";
+    }
   }
-  aux << " ";
 }
 
 string Graph::BFS(int start, int goal){
