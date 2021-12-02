@@ -7,10 +7,10 @@
    
 ### Análisis de complejidad temporal
 ### Push
-Dado a que el añadir datos depende de un ciclo que reitera la existencia o inexistencia de valores en el árbol, cada que se ejecute el Push, dependerá del N otorgado por el caso específico del heap. Esto lo convierte en un 0(n) para el peor de los casos.
+Dado a que el añadir datos depende de un ciclo que reitera la existencia o inexistencia de valores en el árbol, cada que se ejecute el Push, dependerá del N otorgado por el caso específico del heap. Esto lo convierte en un 0(logn) para el peor de los casos.
 
 ### Pop
-El pop depende directamente de la recursión a través de sus elementos para poder funcionar correctamente. A pesar de que siempre es el primer elemento el que se elimina, las filas observables no siempre manejan la misma cantidad de iteraciones, esto equivale a un 0(n) para el peor de los casos.
+El pop depende directamente de la recursión a través de sus elementos para poder funcionar correctamente. A pesar de que siempre es el primer elemento el que se elimina, las filas observables no siempre manejan la misma cantidad de iteraciones, esto equivale a un 0(logn) para el peor de los casos.
 
 ### Top
 El regresar el valor de mayor prioridad, indiferentemente de la cantidad de valores que se encuentren abajo de este en el heap hace que equivalga a un 0(1) para el peor de los casos.
