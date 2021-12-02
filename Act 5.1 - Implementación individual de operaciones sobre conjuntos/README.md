@@ -3,7 +3,7 @@ Marco Antonio Camalich Pérez<br />
   24 de noviembre de 2021<br />
   Programación de estructuras de datos y algoritmos fundamentales<br />
   Benjamin Valdes Aguirre<br />
- # Act 4.1 - 5.1 - Implementación individual de operaciones sobre conjuntos<br />
+ # Act 5.1 - Implementación individual de operaciones sobre conjuntos<br />
    
 ### Análisis de complejidad temporal
 ### Put
