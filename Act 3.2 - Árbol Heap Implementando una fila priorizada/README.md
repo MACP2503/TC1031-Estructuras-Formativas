@@ -20,3 +20,6 @@ Dado a que la función empty solo tiene el trabajo de checar una variable en el 
 
 ### Size
 Size solo retorna el valor entero de la variable count, la cuál pertenece a diferentes operaciones en todo el programa. Count depende de los valores del heap por lo que las operaciones con la constante son 0(n) para el peor de los casos. Sin emnbargo, lo que hace size es retornarla solamente por lo que este preciso movimiento solo es 0(1) para el peor de los casos.
+
+### Actualización de programa
+-Análisis de complejidad actualizado
