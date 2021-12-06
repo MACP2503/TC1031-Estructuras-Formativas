@@ -17,3 +17,6 @@ La generación de constantes mitades del merge sort para analizar pasos más peq
 El recorrido de la secuencial depende solamente de n, por lo que el peor caso sería de O(n).
 #### Búsqueda Binaria
 La busqueda binaria es lo equivalente al merge sort pero en búsquedas sin necesidad de hacer el sorting, su división en fracciones más pequeñas arrojaría un O(log n) como el peor de los casos.
+
+### Actualización de programa 1.2
+-Creación de análisis de complejidad.
